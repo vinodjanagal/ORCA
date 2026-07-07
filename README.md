@@ -12,11 +12,11 @@ A cognitive runtime for structured reasoning, contextual intelligence, and decis
 
 ## Overview
 
-ORCA is an experimental cognitive runtime that explores a different approach to AI systems.
+ORCA is a modular cognitive runtime designed to improve how AI systems reason, rather than simply how they respond.
 
-Instead of treating AI as a chatbot, ORCA treats intelligence as a structured cognitive pipeline where perception, memory, reasoning, decision support, and synthesis work together to produce context-aware responses.
+Instead of treating every user request as an isolated prompt, ORCA organizes intelligence into independent cognitive layers—including perception, contextual memory, reasoning, decision support, and response synthesis—to maintain continuity, reduce cognitive fragmentation, and produce context-aware decisions.
 
-The project focuses on improving reasoning quality rather than simply generating answers.
+The project explores how structured cognition can help users make better decisions without replacing human judgment.
 
 ---
 
