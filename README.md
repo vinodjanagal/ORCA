@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="180" alt="ORCA Logo">
+  <img src="assets/orcalogo.png" width="180" alt="ORCA Logo">
 </p>
 
 <h1 align="center">ORCA</h1>
