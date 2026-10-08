@@ -8,57 +8,65 @@
 A cognitive runtime for structured reasoning, contextual intelligence, and decision support.
 </p>
 
+<p align="center">
+<b>Personal Cognitive Operating System</b> · Beta — 2026
+</p>
+
 ---
 
 ## Overview
 
-ORCA is a modular cognitive runtime designed to improve how AI systems reason, rather than simply how they respond.
+ORCA is a Personal Cognitive Operating System designed to help users reason across context, information, and decisions rather than treating every interaction as an isolated prompt.
 
-Instead of treating every user request as an isolated prompt, ORCA organizes intelligence into independent cognitive layers—including perception, contextual memory, reasoning, decision support, and response synthesis—to maintain continuity, reduce cognitive fragmentation, and produce context-aware decisions.
+It combines persistent context, multi-turn conversation state, external evidence, structured reasoning, decision support, and response synthesis into a single backend-oriented cognitive runtime.
 
-The project explores how structured cognition can help users make better decisions without replacing human judgment.
+The system is designed around a pipeline of:
 
----
+**Perception → Context Assembly → External Evidence → Reasoning → Synthesis**
 
-## Repository Purpose
-
-This repository documents the public architecture, design principles, and engineering philosophy behind ORCA.
-
-The implementation repository remains private while active development continues.
+The goal is not to replace human judgment, but to provide structured context and reasoning support for complex decisions.
 
 ---
 
-## Current Status
+## Status
 
-🚧 Active Development
+**Beta — 2026**
 
-This repository will gradually publish:
-
-- Architecture
-- System Design
-- Engineering Decisions
-- Development Roadmap
-- Screenshots
-- Technical Documentation
+ORCA is currently in beta. This public repository documents the architecture, system design, engineering decisions, and product concepts behind the system. The implementation repository remains private.
 
 ---
 
-## Documentation
+## Tech Stack
 
-Documentation is being published incrementally.
-
-- Architecture
-- Request Lifecycle
-- Memory System
-- Decision Support
-- Design Principles
-
----
-
-## Project Vision
-
-The objective of ORCA is to reduce cognitive fragmentation by helping users reason across information, context, and decisions rather than treating every interaction as an isolated prompt.
+- **Backend:** Python, FastAPI
+- **Database:** PostgreSQL
+- **ORM & Migrations:** SQLAlchemy, Alembic
+- **State & Caching:** Redis
+- **Infrastructure:** Docker
+- **Testing:** pytest
+- **AI/LLM:** LLM APIs, multi-turn context management
 
 ---
 
-© ORCA
+## Architecture
+
+```text
+User Interaction
+       │
+       ▼
+Perception
+       │
+       ▼
+Context Assembly
+       │
+       ▼
+External Evidence
+       │
+       ▼
+Reasoning & Decision Support
+       │
+       ▼
+Response Synthesis
+       │
+       ▼
+Response
