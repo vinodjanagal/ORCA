@@ -1,12 +1,15 @@
 # ORCA Roadmap
 
-## Current Phase
+## Beta — 2026 (Current)
 
 - [x] Cognitive architecture foundation
 - [x] Layered backend architecture
 - [x] Context-aware reasoning pipeline
 - [x] Decision support framework
 - [x] Memory system foundation
+- [x] Persistent context and multi-turn conversation state
+- [x] External evidence integration
+- [x] Beta release
 
 ---
 
@@ -14,9 +17,9 @@
 
 - [ ] Backend architecture refinement
 - [ ] Cognitive engine improvements
-- [ ] Public technical documentation
+- [x] Public technical documentation foundation
 - [ ] UI refinement
-- [ ] Architecture diagrams
+- [ ] Detailed architecture diagrams
 
 ---
 
