@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased
+
+### Public Documentation (Beta)
+
+- Project status updated to Beta (2026)
+- Added tech stack, architecture, core capabilities, request lifecycle, and engineering decisions to the README
+- Added a conceptual system diagram to the architecture document
+- Updated the roadmap to reflect the beta
+
+---
+
 ## v0.1.0
 
 ### Public Repository
