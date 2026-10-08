@@ -19,13 +19,13 @@ User
 Perception
    │
    ▼
-Context & Memory
+Context Assembly
    │
    ▼
-Intelligence
+External Evidence
    │
    ▼
-Decision Support
+Reasoning & Decision Support
    │
    ▼
 Response Synthesis
@@ -33,6 +33,26 @@ Response Synthesis
    ▼
 User
 ```
+
+## System Diagram
+
+```mermaid
+flowchart TD
+    User([User]) --> API[FastAPI backend]
+    API --> Perception
+    Perception --> Context[Context Assembly]
+    Context --> Evidence[External Evidence]
+    Evidence --> Reasoning["Reasoning & Decision Support<br/>(LLM APIs)"]
+    Reasoning --> Synthesis[Response Synthesis]
+    Synthesis --> API
+    API --> User
+
+    DB[(PostgreSQL<br/>persistent state)]
+    DB -- "persisted context & conversation history" --> Context
+    Synthesis -. "state persisted for later turns" .-> DB
+```
+
+The diagram shows the processing stages and the persistence layer only. Internal components, schemas, and the implementation are intentionally not documented here.
 
 ---
 
@@ -50,4 +70,4 @@ User
 > **Note**
 >
 > This repository intentionally documents the public architecture and engineering concepts.
-> The implementation remains private while ORCA is under active development.
+> The implementation remains private while ORCA is in beta.
